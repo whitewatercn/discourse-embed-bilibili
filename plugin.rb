@@ -4,6 +4,8 @@
 # authors: whitewatercn
 # url: https://github.com/whitewatercn/discourse-embed-bilibili
 
+enabled_site_setting :discourse_embed_bilibili_enabled
+
 require_relative "../../lib/onebox"
 
 Onebox = Onebox
